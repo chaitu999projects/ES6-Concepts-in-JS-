@@ -81,9 +81,10 @@ resOfClassobj.devision();
 
 //Fething the Data 
 
-// fetch('https://dummyjson.com/products/category/smartphones')
-// .then(realdata => (realdata.json())
-// .then(console.log));
+fetch('https://dummyjson.com/products/category/smartphones')
+.then(realdata => (realdata.json())
+.then(console.log));
+
 // let allDummyData = [];
 
 // fetch('https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json')
@@ -237,3 +238,5 @@ let filterOfNums = (nums) => {
 let resOfFilterNums = filterOfNums([2,4,6,7,99,23,54, 67, 82,328,674633,9973]);
 console.log(resOfFilterNums);
 
+console.log("Rakesh");
+console.log("Somthing")
